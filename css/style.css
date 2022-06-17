@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: url(../images/angel-jimenez.jpg) no-repeat center;
+    height: 1200px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items:center    
+}
+
+main{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+
+}
+
+h1{
+    font-size: 300px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.seccion-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 1500px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.seccion-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 1500px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.cuadro-1{
+
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    margin-top: 85px;
+}
+
+h2{
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+button{
+
+    width: 180px;
+    height: 50px;
+    background-color: #fc4765;
+    border-radius: 50px;
+    border: 0;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.imagen-cuadro{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-cuadro-2{
+
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+p{
+    font-size: 1.5rem;
+    line-height:40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.seccion-3{
+
+    width: 100%;
+    height: 80vh;
+    background: url("../images/john-raptis.png");
+    background-size:cover;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color:white
+}
+
+.cuadro-2{
+    width: 40%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    
+    
+    background-color: #fc4765;
+    color: white;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 100px 0 100px 0;
+    padding: 50px 500px 50px 0;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content:space-around;
+}
+
+li{
+    list-style: none;
+    font-size: 18px;
+}
+
+.li-1{
+    margin: 0 0 35px 0;
+}
+
+.copy{
+    display: flex;
+   justify-content: flex-start;
+   margin: 50px;
+   height: 100%;
+   border-top:solid white ;
+   padding: 20px 0 0 0;
+}
